@@ -1,59 +1,33 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://html5-templates.com/" />
-    <title>HTML Template - Full Page Slider Navigation</title>
-    <meta name="description" content="A brief page description">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-    <script src="script.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-              sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-              menu: '#menu',
-            });
-        });
-    </script>
-</head>
-
-<body>
+---
+layout: home
+full-width: true
+title: SHIBUI
+subtitle: Simple, subtle, unobtrusive beauty is the ultimate goal to any design
+cover-img: /assets/img/cover.png
+---
 
 
-<ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Project Title</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage">Team</a></li>   
-    <li data-menuanchor="3rdPage"><a href="#3rdPage">About</a></li>
-     <li data-menuanchor="3rdPage"><a href="#4thpage">Contact</a></li>
-</ul>
-
-<div id="fullpage">
-    <div class="section " id="section0">
-        <img class="slide" src="1.png"></img>
-    </div>
-    <div class="section " id="section0">
-        <img class="slide" src="2.png"></img>
-    </div>
-    <div class="section active" id="section2">
-        
-            <img class="slide" src="3.png"></img>
-             <img class="slide" src="4.png"></img>
-              <img class="slide" src="5.png"></img>
-        
-    </div>
-    <div class="section" id="section3">
-      
-             <img class="slide" src="7.png"></img>
-      
+<div class="row">
+    <div class="col m-5" style="text-align: center;">
+        <h1>Timeline</h1>
     </div>
 </div>
 
-</body>
-
-</html>
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <ul class="timeline timeline-centered">
+            {% for doc in site.docs %}
+            <li class="timeline-item">
+                <div class="timeline-info">
+                    <span>{{ doc.date | date: "%B %-d, %Y" }}</span>
+                </div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title"><a href="{{ doc.url }}">{{ doc.title }}</a></h3>
+                    <p>{{ doc.description }}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
