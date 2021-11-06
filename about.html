@@ -2,7 +2,69 @@
 layout: page
 title: About us
 permalink: /about/
-full-width: true
+
+teamMembers:
+  - name: Bogdan Iuga
+    job: Product Owner
+    img: /assets/img/biuga.jpg
+    email: bogdan.iuga@stud.acs.upb.ro
+    facebook: iuggabogdan
+    instagram: bogdaniugga
+    github: iugabogdan98
+
+  - name: Teodora Costinescu
+    job: Project Manager
+    img: /assets/img/tcostinescu.jpg
+    email: teodora.costinescu@stud.acs.upb.ro
+    facebook: teodora.costinescu
+    instagram: teocosti
+    github: teocosti
+
+  - name: Vlad Costache
+    job: Backend Dev
+    img: /assets/img/vcostache.jpg
+    email: vlad_ioan.costache@stud.acs.upb.ro
+    facebook: vlad.costache98
+    instagram: vladcostachee
+    github: vladcostache
+
+  - name: Eugen Costin
+    job: Backend Dev
+    img: /assets/img/ecostin.jpg
+    email: eugen.costin@stud.acs.upb.ro
+    facebook: Eugen998
+    instagram: eugencostin
+    github: Eugen998
+
+  - name: Razvan Neacsu
+    job: DevOps Engineer
+    img: /assets/img/rneacsu.jpg
+    email: razvan.neacsu0506@stud.acs.upb.ro
+    facebook: rneacsu
+    instagram: razvan.nexus
+    github: OriginalNexus
 ---
 
-<img src="/assets/img/team.png">
+<div class="row mt-3 justify-content-center">
+  {% for member in page.teamMembers %}
+  <div class="col-lg-4 col-md-4 col-sm-6 team-member py-3">
+    <img src="{{ member.img }}">
+    <h1>{{ member.name }}</h1>
+    <i>{{ member.job }}</i>
+    <div class="icons">
+      {% if member.email %}
+      <a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
+      {% endif %}
+      {% if member.facebook %}
+      <a href="https://www.facebook.com/{{ member.facebook }}"><i class="fab fa-facebook-f"></i></a>
+      {% endif %}
+      {% if member.instagram %}
+      <a href="https://www.instagram.com/{{ member.instagram }}"><i class="fab fa-instagram"></i></a>
+      {% endif %}
+      {% if member.github %}
+      <a href="https://github.com/{{ member.github }}"><i class="fab fa-github"></i></a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
