@@ -3,31 +3,25 @@ layout: post
 title:  Idea
 date:   2021-10-30
 description: >-
-  Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.
-  Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero
-  venenatis faucibus. ullam dictum felis
-  eu pede mollis pretium. Pellentesque ut neque.
+Shibui is the missing link between public events and their attendees. We strive to create a unique user-centered experience for discovering and attending social and cultural events. We want to achieve that by adding a social layer directly in the digital process of choosing what activities best fit users and their friends.
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Shibui is, in essence, an event-finder application.
 
-Jekyll requires blog post files to be named according to the following format:
+What differentiates it from the other traditional tools for finding events, such as Eventim or IaBilet, is that Shibui is primarily based on the user experience and it strives to create a new standard for discovering, searching, and attending events.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Enjoying an event can be a wonderful experience, especially if you are with your group of friends, but finding the right events, making sure everybody can attend, bought their ticket, there is enough space or a reservation is required, checking where everybody went or setting an arrival and departure time is a nightmare. 
+Usually, this whole process goes through 5 different apps, and with hundreds of messages swapped in the spawn of a few days. Here is the pain point we discovered and want to remove with the help of our app.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+From the start, we are interested in the people. We want to be able to recommend to our users relevant events and to make them want to invite their friends in order to fully take advantage of what we have to offer. 
+We achieve this by having two different layers intertwined inside our app.
+ 
+First of all, the event layer. Our users need to find events fast and easy, based on their preferences. Besides obvious categories, we want to give event organizers a more convenient way to reach the users. So, the users can find any avenue and see directly what events it hosts, the space available, and an itinerary. The next big step is to give a direct way for buying tickets inside the app.
 
-Jekyll also offers powerful support for code snippets:
+The other layer is the social aspect of our solution. Users can follow other users and event providers, and also artists.
+We wish to implement coherently what Facebook tried to do with the events features, and have all the good features in one easily traceable environment: peer activity, recommendations, and to create quick groups where they can organize themselves.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+On the business side, we want to follow the food deliveries app example, such as Glovo and Bolt, to have partnerships with event organizers and avenues, and give them competitive advantages, such as direct access to their audience, discounts directly in the application, and also fidelity perks.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+This is the starting concept for Shibui, a simple interface, made first of all for users, that helps them organize and maximize their leisure time. 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
