@@ -41,36 +41,29 @@ The first question, and one of the most important ones, is about the source wher
 As we can see, the majority of them are using social media channels, such as Facebook, Youtube ads, and other platforms. The second most voted option is word of mouth, and the rest are traditional advertising methods that are losing momentum.
 
 
-
+<img src="../assets/img/validation/i2.png">
 The follow-up questions are about satisfaction and discovery rate. A simple look confirms that more than half of people are barely satisfied with these methods, and frustration can build up, especially when the FOMO starts settling in, as people lose oportuinites. 
 
 
 Following up, we wanted to know if the attendees go alone or gather a group of friends with them.
-
+<img src="../assets/img/validation/i3.png">
 
 As we can see above, over 90% go only in groups of friends, and the main communication tool is direct messages inside chat groups.
 
-
-
-
-
-
-
+<img src="../assets/img/validation/i4.png">
 Seeing this, we wanted to discover how efficient communication is. Needless to say, 75% of them are not happy with the current way of self-organization.
 
 
 
 Continuing on this line of discovery, we want to know how they interact with other unknown attendees.
 
+<img src="../assets/img/validation/i5.png">
 Here we can see that tend of socializing grows, as reassurance from the group of friends gives them a boost of socialization desire. 
-
-
-
-
 
 
 Our last point of interest was to gain direct feedback on what can be improved in an event.
 We selected a few relevant ones, as the other ones are related.
+<img src="../assets/img/validation/i6.png">
 
 
 
