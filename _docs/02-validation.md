@@ -36,7 +36,8 @@ Results :
 The responders were between 20 to 23 years old, with 37.5 % percent of them being women.
 
 The first question, and one of the most important ones, is about the source where they find events.
-<img src="assets/validation/i1.png">
+<img src="assets/img/validation/i1.png">
+
 As we can see, the majority of them are using social media channels, such as Facebook, Youtube ads, and other platforms. The second most voted option is word of mouth, and the rest are traditional advertising methods that are losing momentum.
 
 
