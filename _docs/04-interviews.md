@@ -47,3 +47,11 @@ Some key insights :
 -  He's having samller gatherings
 -  Also is affenected by poor communication with friends
 -  Missed out events, found out about them later or on socail media
+-  Likes the ideea of a new way to organize group mettings and find events
+
+# Third interview
+<div class="embed-responsive embed-responsive-16by9 my-4">
+  <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/11kH3CyO8F3S8AcAUGGHJPCl8DiMx-Q_o/preview" allow="autoplay"></iframe>
+</div>
+
+Our last interview consists of three 1'st year students, all new to Bucharest
